@@ -18,14 +18,15 @@ extern "C" {
 #ifndef         AGXBUF_H
 #define         AGXBUF_H
 
+# define AGXBUF_API extern
+
 #ifdef _WIN32
 #   ifdef EXPORT_AGXBUF
 #       define AGXBUF_API __declspec(dllexport)
-#   else
+#   endif
+#   ifdef IMPORT_AGXBUF
 #       define AGXBUF_API __declspec(dllimport)
 #   endif
-#else
-#   define AGXBUF_API extern
 #endif
 
 /* Extensible buffer:

@@ -59,9 +59,9 @@ typedef unsigned int packval_t;
 
 /*visual studio*/
 #ifdef _WIN32
-#ifndef GVC_EXPORTS
-#define extern __declspec(dllimport)
-#endif
+#   ifdef GVC_IMPORTS
+#       define extern __declspec(dllimport)
+#   endif
 #endif
 /*end visual studio*/
 

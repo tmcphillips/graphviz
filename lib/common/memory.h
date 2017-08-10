@@ -42,15 +42,15 @@ extern "C" {
 #define RALLOC(size,ptr,type) ((type*)grealloc(ptr,(size)*sizeof(type)))
 #define ZALLOC(size,ptr,type,osize) (ptr? (type*)zrealloc(ptr,size,sizeof(type),osize):(type*)zmalloc((size)*sizeof(type)))
 #endif
-#ifdef GVDLL
-#define extern __declspec(dllexport)
-#else
-#ifdef _WIN32
-#ifndef GVC_EXPORTS
-#define extern __declspec(dllimport)
-#endif
-#endif
 
+#ifdef GVDLL
+#   define extern __declspec(dllexport)
+#else
+#   ifdef _WIN32
+#       ifdef GVC_IMPORTS
+#           define extern __declspec(dllimport)
+#       endif
+#   endif
 #endif
 
     extern void *zmalloc(size_t);

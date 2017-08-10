@@ -47,9 +47,9 @@ extern "C" {
 	array2 vis;
     };
 #ifdef _WIN32
-#ifndef PATHPLAN_EXPORTS
-#define extern __declspec(dllimport)
-#endif
+#   ifdef PATHPLAN_IMPORTS
+#       define extern __declspec(dllimport)
+#   endif
 #endif
 /*end visual studio*/
 

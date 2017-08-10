@@ -15,14 +15,15 @@ extern "C" {
 #include <stddef.h>	/* size_t */
 #include <string.h>
 
+# define CDT_API extern
+
 #ifdef _WIN32
 #   ifdef EXPORT_CDT
 #       define CDT_API __declspec(dllexport)
-#   else
+#   endif
+#   ifdef IMPORT_CDT
 #       define CDT_API __declspec(dllimport)
 #   endif
-#else
-#   define CDT_API extern
 #endif
 
 typedef struct _dtlink_s	Dtlink_t;

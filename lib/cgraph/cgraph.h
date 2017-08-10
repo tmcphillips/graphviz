@@ -21,14 +21,15 @@
 extern "C" {
 #endif
 
+# define CGRAPH_API extern
+
 #ifdef _WIN32
 #   ifdef EXPORT_CGRAPH
 #       define CGRAPH_API __declspec(dllexport)
-#   else
+#   endif
+#   ifdef IMPORT_CGRAPH
 #       define CGRAPH_API __declspec(dllimport)
 #   endif
-#else
-#   define CGRAPH_API extern
 #endif
 
 #ifndef FALSE

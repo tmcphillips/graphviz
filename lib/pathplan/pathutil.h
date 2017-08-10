@@ -33,12 +33,13 @@ extern "C" {
 
 /*visual studio*/
 #ifdef _WIN32
-#ifndef PATHPLAN_EXPORTS
-#define extern __declspec(dllimport)
-#endif
+#  ifdef PATHPLAN_IMPORTS
+#    define extern __declspec(dllimport)
+#  endif
 #endif
 /*end visual studio*/
-	typedef double COORD;
+	
+    typedef double COORD;
     extern COORD area2(Ppoint_t, Ppoint_t, Ppoint_t);
     extern int wind(Ppoint_t a, Ppoint_t b, Ppoint_t c);
     extern COORD dist2(Ppoint_t, Ppoint_t);

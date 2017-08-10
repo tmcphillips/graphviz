@@ -19,14 +19,15 @@
 #define EXTERN extern
 #endif
 
+# define CGHDR_API extern
+
 #ifdef _WIN32
 #   ifdef EXPORT_CGHDR
 #       define CGHDR_API __declspec(dllexport)
-#   else
+#   endif
+#   ifdef IMPORT_CGHDR
 #       define CGHDR_API __declspec(dllimport)
 #   endif
-#else
-#   define CGHDR_API extern
 #endif
 
 #include "config.h"
