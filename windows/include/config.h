@@ -29,10 +29,10 @@
 #define GVPLUGIN_VERSION 6
 
 /* Define if you want on-demand plugin loading */
-#define ENABLE_LTDL 1
+//#define ENABLE_LTDL 0
 
 /* Define if you have the ann library */
-#define HAVE_ANN 1
+//#define HAVE_ANN 1
 
 /* Define to 1 if you have the `cbrt' function. */
 //#define HAVE_CBRT 1
@@ -89,13 +89,13 @@
 #define HAVE_GD_FREETYPE 1
 
 /* Define if the GD library has the GD_GIF feature */
-#define HAVE_GD_GIF 1
+//#define HAVE_GD_GIF 1
 
 /* Define if the GD library supports GIFANIM */
 /* #undef HAVE_GD_GIFANIM */
 
 /* Define if the GD library has the GD_JPEG feature */
-#define HAVE_GD_JPEG 1
+//#define HAVE_GD_JPEG 1
 
 /* Define if the GD library supports OPENPOLYGON */
 /* #undef HAVE_GD_OPENPOLYGON */
@@ -125,7 +125,7 @@
 /* #undef HAVE_GTKGL */
 
 /* Define if you have the gtkglext library */
-#define HAVE_GTKGLEXT 1
+//#define HAVE_GTKGLEXT 1
 
 /* Define if you have the gts library */
 #undef HAVE_GTS
@@ -153,10 +153,10 @@
 #define HAVE_LIBGD 1
 
 /* Define if you have the JPEG library */
-#define HAVE_LIBJPEG 1
+//#define HAVE_LIBJPEG 1
 
 /* Define if you have the PNG library */
-#define HAVE_LIBPNG 1
+//#define HAVE_LIBPNG 1
 
 /* Define if you have the XPM library */
 /* #undef HAVE_LIBXPMFORLEFTY */
