@@ -53,10 +53,10 @@
 /* #undef HAVE_DRAND48 */
 
 /* Define if you have the expat library */
-#define HAVE_EXPAT 1
+//#define HAVE_EXPAT 1
 
 /* Define to 1 if you have the <expat.h> header file. */
-#define HAVE_EXPAT_H 1
+//#define HAVE_EXPAT_H 1
 
 /* Define if FILE structure provides _cnt */
 #define HAVE_FILE_CNT 1
@@ -162,7 +162,7 @@
 /* #undef HAVE_LIBXPMFORLEFTY */
 
 /* Define if you have the Z library */
-#define HAVE_LIBZ 1
+//#define HAVE_LIBZ 1
 
 /* Define to 1 if you have the `lrand48' function. */
 /* #undef HAVE_LRAND48 */
