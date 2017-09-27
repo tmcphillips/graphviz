@@ -83,10 +83,10 @@
 /* #undef HAVE_GDK_PIXBUF */
 
 /* Define if the GD library has the GD_FONTCONFIG feature */
-#define HAVE_GD_FONTCONFIG 1
+//#define HAVE_GD_FONTCONFIG 1
 
 /* Define if the GD library has the GD_FREETYPE feature */
-#define HAVE_GD_FREETYPE 1
+//#define HAVE_GD_FREETYPE 1
 
 /* Define if the GD library has the GD_GIF feature */
 //#define HAVE_GD_GIF 1
@@ -101,7 +101,7 @@
 /* #undef HAVE_GD_OPENPOLYGON */
 
 /* Define if the GD library has the GD_PNG feature */
-#define HAVE_GD_PNG 1
+//#define HAVE_GD_PNG 1
 
 /* Define if the GD library supports XPM */
 /* #undef HAVE_GD_XPM */
@@ -150,7 +150,7 @@
 /* #undef HAVE_LASI */
 
 /* Define if either internal or external GD library is availabel */
-#define HAVE_LIBGD 1
+//#define HAVE_LIBGD 1
 
 /* Define if you have the JPEG library */
 //#define HAVE_LIBJPEG 1
@@ -180,7 +180,7 @@
 /* #undef HAVE_NDIR_H */
 
 /* Define if you have the pangocairo library */
-#define HAVE_PANGOCAIRO 1
+//#define HAVE_PANGOCAIRO 1
 
 /* Define to 1 if you have the `pango_fc_font_lock_face' function. */
 /* #undef HAVE_PANGO_FC_FONT_LOCK_FACE */
