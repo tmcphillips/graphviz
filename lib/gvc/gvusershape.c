@@ -171,6 +171,8 @@ static regex_t re, *pre = NULL;
 
 static void svg_size (usershape_t *us)
 {
+
+#ifndef DISABLE_SVG_SIZE
     unsigned int w = 0, h = 0;
     double n, x0, y0, x1, y1;
     char u[10];
@@ -235,6 +237,8 @@ static void svg_size (usershape_t *us)
     us->dpi = 0;
     us->w = w;
     us->h = h;
+
+#endif
 }
 
 static void png_size (usershape_t *us)

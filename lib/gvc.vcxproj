@@ -144,7 +144,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;WIN32;_DEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -182,7 +182,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;WIN32;_DEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -220,7 +220,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;WIN32;_DEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -261,7 +261,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;WIN32;_DEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -299,7 +299,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;NDEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader />
       <WarningLevel>Level4</WarningLevel>
       <EnablePREfast>true</EnablePREfast>
@@ -334,7 +334,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;NDEBUG;_WINDOWS;_USRDLL;GVC_EXPORTS;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
@@ -370,7 +370,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;NDEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
@@ -408,7 +408,7 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)windows\include;$(SolutionDir)windows\dependencies\GTK2\include;$(SolutionDir)windows\dependencies\libraries\x86\include;$(SolutionDir);$(SolutionDir)lib\cdt;$(SolutionDir)lib\cgraph;$(SolutionDir)lib\common;$(SolutionDir)lib\fdpgen;$(SolutionDir)lib\label;$(SolutionDir)lib\pathplan;$(SolutionDir)lib\gvc;$(SolutionDir)lib\xdot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DISABLE_SVG_SIZE;NDEBUG;_WINDOWS;_USRDLL;WIN32_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
