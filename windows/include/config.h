@@ -290,8 +290,8 @@
 #define NO_FPERR 1
 
 /* Define if you want ORTHO */
-/* #undef ORTHO */
-#define ORTHO 1
+#undef ORTHO 
+//#define ORTHO 1
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT "http://www.graphviz.org/"
