@@ -50,7 +50,7 @@ extern "C" {
 #   define external   extern
 #endif
 #ifndef EXTERN
-#define EXTERN extern
+#define EXTERN
 #endif
 
     EXTERN char *Version;
