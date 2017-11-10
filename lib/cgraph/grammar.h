@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED
-# define YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED
+#ifndef YY_YY_GRAMMAR_H_INCLUDED
+# define YY_YY_GRAMMAR_H_INCLUDED
 /* Enabling traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -78,7 +78,7 @@ extern int yydebug;
 typedef union YYSTYPE
 {
 /* Line 2058 of yacc.c  */
-#line 81 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 81 "grammar.y"
 
 			int				i;
 			char			*str;
@@ -86,7 +86,7 @@ typedef union YYSTYPE
 
 
 /* Line 2058 of yacc.c  */
-#line 90 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.h"
+#line 90 "grammar.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
@@ -109,4 +109,4 @@ int yyparse ();
 #endif
 #endif /* ! YYPARSE_PARAM */
 
-#endif /* !YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED  */
+#endif /* !YY_YY_GRAMMAR_H_INCLUDED  */

@@ -28,7 +28,7 @@
 #define DMKEY "Software\\Microsoft" //key to look for library dir
 #endif
 
-#include <regex.h>
+//#include <regex.h>
 #include "types.h"
 #include "logic.h"
 #include "memory.h"
@@ -167,7 +167,7 @@ static unsigned int svg_units_convert(double n, char *u)
 }
 
 static char* svg_attr_value_re = "([a-z][a-zA-Z]*)=\"([^\"]*)\"";
-static regex_t re, *pre = NULL;
+//static regex_t re, *pre = NULL;
 
 static void svg_size (usershape_t *us)
 {

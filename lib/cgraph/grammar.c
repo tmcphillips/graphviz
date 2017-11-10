@@ -63,7 +63,7 @@
 
 /* Copy the first part of user declarations.  */
 /* Line 371 of yacc.c  */
-#line 14 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 14 "grammar.y"
 
 
 #include <stdio.h>  /* SAFE */
@@ -131,7 +131,7 @@ static gstack_t *S;
 
 
 /* Line 371 of yacc.c  */
-#line 135 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.c"
+#line 135 "grammar.c"
 
 # ifndef YY_NULL
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -151,8 +151,8 @@ static gstack_t *S;
 
 /* In a future release of Bison, this section will be replaced
    by #include "grammar.h".  */
-#ifndef YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED
-# define YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED
+#ifndef YY_YY_GRAMMAR_H_INCLUDED
+# define YY_YY_GRAMMAR_H_INCLUDED
 /* Enabling traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -199,7 +199,7 @@ extern int yydebug;
 typedef union YYSTYPE
 {
 /* Line 387 of yacc.c  */
-#line 81 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 81 "grammar.y"
 
 			int				i;
 			char			*str;
@@ -207,7 +207,7 @@ typedef union YYSTYPE
 
 
 /* Line 387 of yacc.c  */
-#line 211 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.c"
+#line 211 "grammar.c"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
@@ -230,12 +230,12 @@ int yyparse ();
 #endif
 #endif /* ! YYPARSE_PARAM */
 
-#endif /* !YY_YY_C_USERS_TMCPHILL_GITREPOS_GRAPHVIZ_LIB_CGRAPH_GRAMMAR_H_INCLUDED  */
+#endif /* !YY_YY_GRAMMAR_H_INCLUDED  */
 
 /* Copy the second part of user declarations.  */
 
 /* Line 390 of yacc.c  */
-#line 239 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.c"
+#line 239 "grammar.c"
 
 #ifdef short
 # undef short
@@ -1496,217 +1496,217 @@ yyreduce:
     {
         case 2:
 /* Line 1792 of yacc.c  */
-#line 98 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 98 "grammar.y"
     {freestack(); endgraph();}
     break;
 
   case 3:
 /* Line 1792 of yacc.c  */
-#line 99 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 99 "grammar.y"
     {if (G) {freestack(); endgraph(); agclose(G); G = Ag_G_global = NIL(Agraph_t*);}}
     break;
 
   case 6:
 /* Line 1792 of yacc.c  */
-#line 105 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 105 "grammar.y"
     {startgraph((yyvsp[(3) - (3)].str),(yyvsp[(2) - (3)].i),(yyvsp[(1) - (3)].i));}
     break;
 
   case 7:
 /* Line 1792 of yacc.c  */
-#line 108 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 108 "grammar.y"
     {(yyval.str)=(yyvsp[(1) - (1)].str);}
     break;
 
   case 8:
 /* Line 1792 of yacc.c  */
-#line 108 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 108 "grammar.y"
     {(yyval.str)=0;}
     break;
 
   case 9:
 /* Line 1792 of yacc.c  */
-#line 110 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 110 "grammar.y"
     {(yyval.i)=1;}
     break;
 
   case 10:
 /* Line 1792 of yacc.c  */
-#line 110 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 110 "grammar.y"
     {(yyval.i)=0;}
     break;
 
   case 11:
 /* Line 1792 of yacc.c  */
-#line 112 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 112 "grammar.y"
     {(yyval.i) = 0;}
     break;
 
   case 12:
 /* Line 1792 of yacc.c  */
-#line 112 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 112 "grammar.y"
     {(yyval.i) = 1;}
     break;
 
   case 21:
 /* Line 1792 of yacc.c  */
-#line 125 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 125 "grammar.y"
     {if ((yyvsp[(2) - (3)].i)) endedge(); else endnode();}
     break;
 
   case 24:
 /* Line 1792 of yacc.c  */
-#line 130 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 130 "grammar.y"
     {getedgeitems(1);}
     break;
 
   case 25:
 /* Line 1792 of yacc.c  */
-#line 130 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 130 "grammar.y"
     {getedgeitems(2);}
     break;
 
   case 26:
 /* Line 1792 of yacc.c  */
-#line 130 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 130 "grammar.y"
     {(yyval.i) = 1;}
     break;
 
   case 27:
 /* Line 1792 of yacc.c  */
-#line 131 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 131 "grammar.y"
     {(yyval.i) = 0;}
     break;
 
   case 30:
 /* Line 1792 of yacc.c  */
-#line 137 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 137 "grammar.y"
     {appendnode((yyvsp[(1) - (1)].str),NIL(char*),NIL(char*));}
     break;
 
   case 31:
 /* Line 1792 of yacc.c  */
-#line 138 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 138 "grammar.y"
     {appendnode((yyvsp[(1) - (3)].str),(yyvsp[(3) - (3)].str),NIL(char*));}
     break;
 
   case 32:
 /* Line 1792 of yacc.c  */
-#line 139 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 139 "grammar.y"
     {appendnode((yyvsp[(1) - (5)].str),(yyvsp[(3) - (5)].str),(yyvsp[(5) - (5)].str));}
     break;
 
   case 33:
 /* Line 1792 of yacc.c  */
-#line 142 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 142 "grammar.y"
     {attrstmt((yyvsp[(1) - (3)].i),(yyvsp[(2) - (3)].str));}
     break;
 
   case 34:
 /* Line 1792 of yacc.c  */
-#line 143 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 143 "grammar.y"
     {attrstmt(T_graph,NIL(char*));}
     break;
 
   case 35:
 /* Line 1792 of yacc.c  */
-#line 146 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 146 "grammar.y"
     {(yyval.i) = T_graph;}
     break;
 
   case 36:
 /* Line 1792 of yacc.c  */
-#line 147 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 147 "grammar.y"
     {(yyval.i) = T_node;}
     break;
 
   case 37:
 /* Line 1792 of yacc.c  */
-#line 148 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 148 "grammar.y"
     {(yyval.i) = T_edge;}
     break;
 
   case 38:
 /* Line 1792 of yacc.c  */
-#line 151 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 151 "grammar.y"
     {(yyval.str) = (yyvsp[(1) - (2)].str);}
     break;
 
   case 39:
 /* Line 1792 of yacc.c  */
-#line 152 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 152 "grammar.y"
     {(yyval.str) = NIL(char*); }
     break;
 
   case 48:
 /* Line 1792 of yacc.c  */
-#line 167 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 167 "grammar.y"
     {appendattr((yyvsp[(1) - (3)].str),(yyvsp[(3) - (3)].str));}
     break;
 
   case 49:
 /* Line 1792 of yacc.c  */
-#line 170 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 170 "grammar.y"
     {appendattr((yyvsp[(2) - (2)].str),NIL(char*));}
     break;
 
   case 51:
 /* Line 1792 of yacc.c  */
-#line 176 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 176 "grammar.y"
     {opensubg((yyvsp[(1) - (1)].str));}
     break;
 
   case 52:
 /* Line 1792 of yacc.c  */
-#line 176 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 176 "grammar.y"
     {closesubg();}
     break;
 
   case 53:
 /* Line 1792 of yacc.c  */
-#line 179 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 179 "grammar.y"
     {(yyval.str)=(yyvsp[(2) - (2)].str);}
     break;
 
   case 54:
 /* Line 1792 of yacc.c  */
-#line 180 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 180 "grammar.y"
     {(yyval.str)=NIL(char*);}
     break;
 
   case 55:
 /* Line 1792 of yacc.c  */
-#line 181 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 181 "grammar.y"
     {(yyval.str)=NIL(char*);}
     break;
 
   case 59:
 /* Line 1792 of yacc.c  */
-#line 186 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 186 "grammar.y"
     {(yyval.str) = (yyvsp[(1) - (1)].str);}
     break;
 
   case 60:
 /* Line 1792 of yacc.c  */
-#line 187 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 187 "grammar.y"
     {(yyval.str) = (yyvsp[(1) - (1)].str);}
     break;
 
   case 61:
 /* Line 1792 of yacc.c  */
-#line 190 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 190 "grammar.y"
     {(yyval.str) = (yyvsp[(1) - (1)].str);}
     break;
 
   case 62:
 /* Line 1792 of yacc.c  */
-#line 191 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 191 "grammar.y"
     {(yyval.str) = concat((yyvsp[(1) - (3)].str),(yyvsp[(3) - (3)].str));}
     break;
 
 
 /* Line 1792 of yacc.c  */
-#line 1710 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.c"
+#line 1710 "grammar.c"
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1938,7 +1938,7 @@ yyreturn:
 
 
 /* Line 2055 of yacc.c  */
-#line 193 "C:/Users/tmcphill/GitRepos/graphviz/lib/cgraph/grammar.y"
+#line 193 "grammar.y"
 
 
 #define NILitem  NIL(item*)
