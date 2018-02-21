@@ -161,12 +161,6 @@
   <ItemGroup>
     <ClCompile Include="xdot.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\cgraph\cgraph.vcxproj">
-      <Project>{c0663a08-f276-4dd6-b17c-e501ee066f7c}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -186,12 +186,6 @@
   <ItemGroup>
     <None Include="pathplan.def" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\cdt\cdt.vcxproj">
-      <Project>{83cf0498-7884-49d3-8b3c-263c5af5fe1b}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

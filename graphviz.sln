@@ -11,9 +11,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgraph", "lib\cgraph\cgraph.vcxproj", "{C0663A08-F276-4DD6-B17C-E501EE066F7C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gvplugin_core", "plugin\core\gvplugin_core.vcxproj", "{AE706502-3203-4815-BF50-4D73BF96BA58}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C99C1195-2032-408B-9822-F09F49006A3C} = {C99C1195-2032-408B-9822-F09F49006A3C}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gvplugin_dot_layout", "plugin\dot_layout\gvplugin_dot_layout.vcxproj", "{189E64E3-8A67-4477-8B18-3B174C03F6B9}"
 EndProject

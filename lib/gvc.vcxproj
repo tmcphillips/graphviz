@@ -325,24 +325,6 @@ awk -f $(SolutionDir)awk\colortbl.awk color_lib &gt; common\colortbl.h</Command>
     <None Include="common\entities.html" />
     <None Include="gvc.def" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="cdt\cdt.vcxproj">
-      <Project>{83cf0498-7884-49d3-8b3c-263c5af5fe1b}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="patchwork\gvpatchwork.vcxproj">
-      <Project>{6bd77bde-151d-4824-a8bc-9f067662f7ab}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="pathplan\Pathplan.vcxproj">
-      <Project>{bd347753-a09d-48b4-8752-f1d8d9cf235d}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="xdot\xdot.vcxproj">
-      <Project>{c99c1195-2032-408b-9822-f09f49006a3c}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
